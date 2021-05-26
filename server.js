@@ -18,7 +18,6 @@ const app = express();
 //     next();
 // })
 
-
 app.get('/', (req, res) => {
     res.send('API is running n listening')
 })
